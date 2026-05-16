@@ -6,6 +6,7 @@ export const getDataByQueryParams = (data, params) => {
                 // Convert the string to boolean first, then compare them equal
                 return destValue === (value === 'true');
             }
+            // Avoid destValue is undefined by ?
             return destValue?.toLowerCase() === value.toLowerCase();
         });
     });
