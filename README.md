@@ -62,3 +62,8 @@ npm init
 npm install --save-dev prettier
 npm init @eslint/config
 ```
+
+## Related to
+[nodejs](https://nodejs.org/en)
+[npmjs](https://www.npmjs.com/)
+[libraries](https://libraries.io/)
